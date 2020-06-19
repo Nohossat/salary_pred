@@ -1,7 +1,5 @@
 # Etapes pour déployer un model ML
 
- 
-
 1. Installer Flask et Docker
 2. Sérialiser votre modèle Scikit-Learn (Vous pouvez utiliser Pickle, ou Joblib)
 3. Créer un service api.py qui vous permettra d'exposer votre modèle via un webservice Flask
