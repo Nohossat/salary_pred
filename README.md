@@ -15,3 +15,16 @@
 6. Démarrez le conteneur
 7. Vérifiez avec Insomnia que votre API fonctionne toujours correctement et que les prédictions de votre modèle sont les . bonnes.
 8. Vous pouvez push sur un registre d'image Docker comme le Dockerhub votre image et délivrer votre application en prod.
+
+# How it works: 
+
+POST URL
+```bash
+http://localhost:5000/api
+```
+JSON PAYLOAD
+```json
+{
+    "exp":10
+}
+```
